@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Chef</string>
+	<key>ordering</key>
+	<array>
+		<string>942770A9-7106-4CAC-8533-3772E4BA4AEF</string>
+		<string>486B3F9F-E3FC-496B-8708-ED4669B542D7</string>
+		<string>1D72B5EC-D4D2-4C3B-8B01-FFB3E9C0EC47</string>
+	</array>
+	<key>uuid</key>
+	<string>73C08EDB-F2E9-4C93-A115-F5C21811C75A</string>
+</dict>
+</plist>
