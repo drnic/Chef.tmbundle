@@ -3,21 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>directory "${1:/tmp/something}" do
-  owner "${2:root}"
-  group "${3:$2}"
-  mode "${4:0755}"
-  recursive true
-  action :create
-end
-</string>
+	<string>ruby_block "${1:desc}" do
+  block do
+    ${1:puts "awesome"}
+  end
+end</string>
 	<key>name</key>
-	<string>directory</string>
+	<string>ruby_block</string>
 	<key>scope</key>
 	<string>source.ruby.chef</string>
 	<key>tabTrigger</key>
-	<string>dir</string>
+	<string>block</string>
 	<key>uuid</key>
-	<string>486B3F9F-E3FC-496B-8708-ED4669B542D7</string>
+	<string>64FF70AD-3D0A-4BDD-B6D0-2AB48B043D4C</string>
 </dict>
 </plist>

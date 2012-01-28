@@ -3,21 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>directory "${1:/tmp/something}" do
-  owner "${2:root}"
-  group "${3:$2}"
-  mode "${4:0755}"
-  recursive true
-  action :create
-end
+	<string>gem_package "${1:gem}"
 </string>
 	<key>name</key>
-	<string>directory</string>
+	<string>gem_package</string>
 	<key>scope</key>
 	<string>source.ruby.chef</string>
 	<key>tabTrigger</key>
-	<string>dir</string>
+	<string>gem</string>
 	<key>uuid</key>
-	<string>486B3F9F-E3FC-496B-8708-ED4669B542D7</string>
+	<string>589FDF39-7650-4103-973D-E5D687E9C275</string>
 </dict>
 </plist>
