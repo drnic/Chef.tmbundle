@@ -7,7 +7,7 @@
   source "${2:source}.erb"
   owner "${3:root}"
   group "${4:$3}"
-  mode "${5:0744}
+  mode "${5:0744}"
 end
 </string>
 	<key>name</key>
