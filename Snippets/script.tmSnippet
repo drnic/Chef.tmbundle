@@ -4,10 +4,11 @@
 <dict>
 	<key>content</key>
 	<string>script "${1:desc}" do
-  user "${2:root}"
-  cwd "${3:/tmp}"
+  interpreter "${2:bash}"
+  user "${3:root}"
+  cwd "${4:/tmp}"
   code &lt;&lt;-EOF
-	${4:script commands}
+	${5:script commands}
   EOF
 end
 </string>
