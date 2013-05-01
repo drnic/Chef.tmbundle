@@ -1,24 +1,22 @@
-= TextMate bundle for Chef recipes
+# TextMate bundle for Chef recipes
 
-
-== Installation
+## Installation
 
 To install via Git:
 
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/drnic/Chef.tmbundle.git
+    git clone https://github.com/drnic/Chef.tmbundle.git
     osascript -e 'tell app "TextMate" to reload bundles'
 
-Source can be viewed or forked via GitHub: [http://github.com/drnic/Chef.tmbundle](http://github.com/drnic/Chef.tmbundle)
+Source can be viewed or forked via GitHub: [https://github.com/drnic/Chef.tmbundle](https://github.com/drnic/Chef.tmbundle)
 
 
-License
-=======
+## License
 
 (The MIT License)
 
-Copyright (c) 2010 Dr Nic Williams, Engine Yard, Inc.
+Copyright (c) 2010-2013 Dr Nic Williams, Stark & Wayne LLC
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
