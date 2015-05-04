@@ -4,10 +4,18 @@
 
 To install via Git:
 
+### TextMate version 1
+
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
     git clone https://github.com/drnic/Chef.tmbundle.git
     osascript -e 'tell app "TextMate" to reload bundles'
+
+### TextMate version 2
+
+    mkdir -p ~/Library/Application\ Support/Avian/Bundles
+    cd ~/Library/Application\ Support/Avian/Bundles
+    git clone https://github.com/drnic/Chef.tmbundle.git
 
 Source can be viewed or forked via GitHub: [https://github.com/drnic/Chef.tmbundle](https://github.com/drnic/Chef.tmbundle)
 
